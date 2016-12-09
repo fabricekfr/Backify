@@ -1,0 +1,10 @@
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\DataAccess\bin\Debug\DataAccess.dll
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\DataAccess\bin\Debug\DataAccess.pdb
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\DataAccess\bin\Debug\ClientModel.dll
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\DataAccess\bin\Debug\System.Windows.Interactivity.dll
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\DataAccess\bin\Debug\ClientModel.pdb
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\DataAccess\obj\Debug\DataAccess.dll
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\DataAccess\obj\Debug\DataAccess.pdb
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\DataAccess\bin\Debug\Domain.dll
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\DataAccess\bin\Debug\Domain.pdb

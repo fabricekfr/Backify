@@ -1,0 +1,7 @@
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\Domain\bin\Debug\Domain.dll
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\Domain\bin\Debug\Domain.pdb
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\Domain\bin\Debug\ClientModel.dll
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\Domain\bin\Debug\ClientModel.pdb
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\Domain\obj\Debug\Domain.dll
+c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\Domain\obj\Debug\Domain.pdb
