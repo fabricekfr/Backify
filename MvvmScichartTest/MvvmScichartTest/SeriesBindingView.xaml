@@ -22,17 +22,17 @@
         <!--  Shows the SciChartSurface and binds ZoomHistoryManager to the instance in the viewmodel  -->
         <!--  This is what we use to control zoom history as well as Undo Redo  -->
         <s:SciChartSurface x:Name="SciChart"
-                           Grid.Column="1"
-                           RenderableSeries="{s:SeriesBinding RenderableSeriesViewModels}">
-            <!--<s:SciChartSurface.Resources>
-                <Style x:Key="LineSeriesStyle" TargetType="s:FastLineRenderableSeries">
-                    <Setter Property="StrokeThickness" Value="2" />
-                    <Setter Property="Opacity" Value="0.6" />
-                    <Setter Property="Stroke" Value="#ff99ed3f" />
-                </Style>
-            </s:SciChartSurface.Resources>-->
+                           Grid.Column="1">
+                          <!--RenderableSeries="{s:SeriesBinding RenderableSeriesViewModels}">-->
 
-            <!--  Create an X Axis with Growby  -->
+            <s:SciChartSurface.RenderableSeries >
+                <s:FastImpulseRenderableSeries Stroke="#0066FF" DataSeries="{Binding ChartData}">
+                    <s:FastImpulseRenderableSeries.PointMarker>
+                        <s:EllipsePointMarker Width="5" Height="5" Fill="#0066FF"/>
+                    </s:FastImpulseRenderableSeries.PointMarker>
+                </s:FastImpulseRenderableSeries>
+            </s:SciChartSurface.RenderableSeries>
+
             <s:SciChartSurface.XAxis>
                 <s:DateTimeAxis />
             </s:SciChartSurface.XAxis>

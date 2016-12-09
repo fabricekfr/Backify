@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
 <FxCopReport Version="14.0">
  <Targets>
-  <Target Name="C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\MvvmScichartTest\MvvmScichartTest\bin\Debug\MvvmScichartTest.exe">
+  <Target Name="C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\MvvmScichartTest\bin\Debug\MvvmScichartTest.exe">
    <Modules>
     <Module Name="mvvmscicharttest.exe">
      <Namespaces>
@@ -12,8 +12,8 @@
          <Members>
           <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="_container" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2016-12-08 21:28:00Z" FixCategory="NonBreaking">
-             <Issue Certainty="75" Level="Warning" Path="C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\MvvmScichartTest\MvvmScichartTest\CompositionRoot" File="MainWindowFactory.cs" Line="30">'MainWindowFactory' contains field 'MainWindowFactory._container' that is of IDisposable type: 'WindsorContainer'. Change the Dispose method on 'MainWindowFactory' to call Dispose or Close on this field.</Issue>
+            <Message Id="_container" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2016-12-09 19:08:10Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\MvvmScichartTest\CompositionRoot" File="MainWindowFactory.cs" Line="30">'MainWindowFactory' contains field 'MainWindowFactory._container' that is of IDisposable type: 'WindsorContainer'. Change the Dispose method on 'MainWindowFactory' to call Dispose or Close on this field.</Issue>
             </Message>
            </Messages>
           </Member>
