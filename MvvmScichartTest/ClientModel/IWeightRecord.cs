@@ -16,6 +16,6 @@ namespace ClientModel
         /// <summary>
         /// %
         /// </summary>
-        DateTime BodyFat { get; set; }
+        double BodyFat { get; set; }
     }
 }

@@ -12,7 +12,7 @@
          <Members>
           <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="_container" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2016-12-09 19:08:10Z" FixCategory="NonBreaking">
+            <Message Id="_container" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2016-12-12 16:10:55Z" FixCategory="NonBreaking">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\MvvmScichartTest\CompositionRoot" File="MainWindowFactory.cs" Line="30">'MainWindowFactory' contains field 'MainWindowFactory._container' that is of IDisposable type: 'WindsorContainer'. Change the Dispose method on 'MainWindowFactory' to call Dispose or Close on this field.</Issue>
             </Message>
            </Messages>

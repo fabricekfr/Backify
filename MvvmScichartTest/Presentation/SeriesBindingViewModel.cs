@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Windows.Media;
 using DataAccess;
 using GalaSoft.MvvmLight;
 using SciChart.Charting.Model.ChartSeries;
@@ -11,24 +12,24 @@ namespace Presentation
     public class SeriesBindingViewModel : ViewModelBase
     {
         public ObservableCollection<IRenderableSeriesViewModel> RenderableSeriesViewModels { get; set; }
-        public IDataSeries ChartData { get; set; }
 
         public SeriesBindingViewModel()
         {
             var dataService = new DesignDataService();
             var data = dataService.GetData().ToList();
 
-            var xyDataSeries = new XyDataSeries<DateTime, double>();
-            xyDataSeries.Append(data.Select(d => d.Date), data.Select(d => d.Weight));
+            var mountainDataSeries = new XyDataSeries<DateTime, double>();
+            mountainDataSeries.Append(data.Select(d => d.Date), data.Select(d => d.Weight));
+
+            var lineDataSeries = new XyDataSeries<DateTime, double>();
+            lineDataSeries.Append(data.Select(d => d.Date), data.Select(d => d.BodyFat));
 
             RenderableSeriesViewModels = new ObservableCollection<IRenderableSeriesViewModel>()
             {
-                new ColumnRenderableSeriesViewModel {DataSeries = xyDataSeries},
-                new MountainRenderableSeriesViewModel {DataSeries = xyDataSeries},
-                new LineRenderableSeriesViewModel {DataSeries = xyDataSeries}
+                new ColumnRenderableSeriesViewModel {DataSeries = mountainDataSeries, YAxisId = "LeftAxis"},
+                new LineRenderableSeriesViewModel {DataSeries = lineDataSeries, Stroke = Colors.Red, YAxisId = "RightAxis"}
             };
 
-            ChartData = xyDataSeries;
 
 
         }

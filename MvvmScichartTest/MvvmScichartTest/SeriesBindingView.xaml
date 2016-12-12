@@ -5,7 +5,31 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:s="http://schemas.abtsoftware.co.uk/scichart"
              xmlns:ext="http://schemas.abtsoftware.co.uk/scichart/exampleExternals"
-             mc:Ignorable="d" Height="500">
+             mc:Ignorable="d" Height="400">
+
+    <UserControl.Resources>
+
+
+        <!-- Declare an Axis Title Template -->
+        <Style x:Key="BottomAxisTitleStyle" TargetType="s:AxisTitle">
+            <Setter Property="ContentTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Margin="0,3,0,0" Text="Showing time on "/>
+                                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding}" />
+                            </StackPanel>
+                            <TextBlock Margin="0,0,0,3" Text="(daily Timeframe)"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+    </UserControl.Resources>
+
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -22,24 +46,32 @@
         <!--  Shows the SciChartSurface and binds ZoomHistoryManager to the instance in the viewmodel  -->
         <!--  This is what we use to control zoom history as well as Undo Redo  -->
         <s:SciChartSurface x:Name="SciChart"
-                           Grid.Column="1">
-                          <!--RenderableSeries="{s:SeriesBinding RenderableSeriesViewModels}">-->
+                           Grid.Column="1"
+                           Padding="15"
+                           HorizontalAlignment="Stretch"
+                           VerticalAlignment="Stretch"
+                           RenderableSeries="{s:SeriesBinding RenderableSeriesViewModels}">
 
-            <s:SciChartSurface.RenderableSeries >
-                <s:FastImpulseRenderableSeries Stroke="#0066FF" DataSeries="{Binding ChartData}">
-                    <s:FastImpulseRenderableSeries.PointMarker>
-                        <s:EllipsePointMarker Width="5" Height="5" Fill="#0066FF"/>
-                    </s:FastImpulseRenderableSeries.PointMarker>
-                </s:FastImpulseRenderableSeries>
-            </s:SciChartSurface.RenderableSeries>
 
             <s:SciChartSurface.XAxis>
-                <s:DateTimeAxis />
+                <s:DateTimeAxis AxisTitle="Dates" TitleStyle="{StaticResource BottomAxisTitleStyle}">
+                    <s:DateTimeAxis.TickLabelStyle>
+                        <Style TargetType="s:DefaultTickLabel">
+                            <Setter Property="LayoutTransform">
+                                <Setter.Value>
+                                    <RotateTransform Angle="90" />
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </s:DateTimeAxis.TickLabelStyle>
+                </s:DateTimeAxis>
             </s:SciChartSurface.XAxis>
 
-            <s:SciChartSurface.YAxis>
-                <s:NumericAxis />
-            </s:SciChartSurface.YAxis>
+
+            <s:SciChartSurface.YAxes>
+                <s:NumericAxis Id="LeftAxis"  AxisAlignment="Left" />
+                <s:NumericAxis Id="RightAxis" AxisAlignment="Right" />
+            </s:SciChartSurface.YAxes>
 
         </s:SciChartSurface>
 

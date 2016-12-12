@@ -6,7 +6,7 @@
         xmlns:ignore="http://www.galasoft.ch/ignore"
         xmlns:mvvmScichartTest="clr-namespace:MvvmScichartTest"
         xmlns:presentation="clr-namespace:Presentation;assembly=Presentation"
-        mc:Ignorable="d ignore" Title="Mvvm Scichart Test"  Height="550">
+        mc:Ignorable="d ignore" Title="Mvvm Scichart Test"  Height="600">
 
     <Window.Resources>
         <ResourceDictionary>
@@ -19,17 +19,31 @@
     </Window.Resources>
 
 
-    <StackPanel x:Name="LayoutRoot">
+    <TabControl>
+        
+        <TabItem Header="Bars and Lines">
 
-        <TextBlock FontSize="36"
+            <StackPanel x:Name="LayoutRoot">
+
+                <TextBlock FontSize="36"
                    FontWeight="Bold"
                    Foreground="Purple"
                    Text="{Binding WelcomeTitle}"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
-                   TextWrapping="Wrap" />
+                   TextWrapping="Wrap" 
+                   Padding="0,0,0,15"/>
 
-        <mvvmScichartTest:SeriesBindingView DataContext="{StaticResource ViewModel}" />
+                <mvvmScichartTest:SeriesBindingView DataContext="{StaticResource ViewModel}" />
 
-    </StackPanel>
+            </StackPanel>
+
+        </TabItem>
+
+        <TabItem>
+
+        </TabItem>
+
+    </TabControl>
+
 </Window>

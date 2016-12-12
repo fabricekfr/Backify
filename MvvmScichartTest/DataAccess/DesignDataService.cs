@@ -18,12 +18,13 @@ namespace DataAccess
             var start = new DateTime(2014, 1, 1);
             var random = new Random();
 
-            for (var i = 0; i < 200; i++)
+            for (var i = 0; i < 30; i++)
             {
                 var weightRecord = new WeightRecord
                 {
                     Date = start.AddDays(i),
-                    Weight = random.NextDouble() * 20 + 180
+                    Weight = random.NextDouble() * 20 + 100,
+                    BodyFat = random.NextDouble() * 10 + 20
                 };
                 data.Add(weightRecord);
             }

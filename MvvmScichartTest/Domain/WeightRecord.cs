@@ -8,6 +8,6 @@ namespace Domain
         public DateTime Date { get; set; }
         public double Weight { get; set; }
         public double Bmi { get; set; }
-        public DateTime BodyFat { get; set; }
+        public double BodyFat { get; set; }
     }
 }
