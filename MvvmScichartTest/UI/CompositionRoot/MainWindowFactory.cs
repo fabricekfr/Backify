@@ -16,9 +16,9 @@ namespace UI.CompositionRoot
             _container.Install(new ViewModelsInstaller());
         }
 
-        public MainWindow CreateInstance()
+        public Views.MainWindow CreateInstance()
         {
-            return new MainWindow { DataContext = _container.Resolve<MainWindowViewModel>() };
+            return new Views.MainWindow { DataContext = _container.Resolve<MainWindowViewModel>() };
         }
         public void Dispose()
         {

@@ -1,8 +1,0 @@
-c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\ClientModel\bin\Debug\ClientModel.dll
-c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\ClientModel\bin\Debug\ClientModel.pdb
-c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\ClientModel\obj\Debug\ClientModel.dll
-c:\users\fkwitond\documents\visual studio 2015\Projects\MvvmScichartTest\ClientModel\obj\Debug\ClientModel.pdb
-C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\ClientModel\bin\Debug\ClientModel.dll
-C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\ClientModel\bin\Debug\ClientModel.pdb
-C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\ClientModel\obj\Debug\ClientModel.dll
-C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\ClientModel\obj\Debug\ClientModel.pdb

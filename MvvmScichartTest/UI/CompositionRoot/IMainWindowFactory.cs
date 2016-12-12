@@ -2,6 +2,6 @@
 {
     public interface IMainWindowFactory
     {
-        MainWindow CreateInstance();
+        Views.MainWindow CreateInstance();
     }
 }
