@@ -54,7 +54,7 @@
 
 
             <s:SciChartSurface.XAxis>
-                <s:DateTimeAxis AxisTitle="Dates" TitleStyle="{StaticResource BottomAxisTitleStyle}" AutoTicks="False" MajorDelta="1" MinorDelta="1">
+                <s:DateTimeAxis AxisTitle="Dates" TitleStyle="{StaticResource BottomAxisTitleStyle}">
                     <s:DateTimeAxis.TickLabelStyle>
                         <Style TargetType="s:DefaultTickLabel">
                             <Setter Property="LayoutTransform">
