@@ -68,6 +68,8 @@ C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScich
 C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\SciChart.Data.xml
 C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\Domain.pdb
 C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\SciChart.Drawing.xml
+C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\SciChart.Charting3D.xml
+C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\SciChart.Drawing.DirectX.xml
 C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\obj\Debug\Presentation.csprojResolveAssemblyReference.cache
 C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\obj\Debug\Presentation.dll
 C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\obj\Debug\Presentation.pdb

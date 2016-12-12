@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "MvvmScichartTest\UI.csproj", "{FA9B132F-C770-4CBF-91AA-288E8DDB8E9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{FA9B132F-C770-4CBF-91AA-288E8DDB8E9E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientModel", "ClientModel\ClientModel.csproj", "{1B0D40F3-9C9D-4DAB-ACF9-DFD7CFA1AA41}"
 EndProject
