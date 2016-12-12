@@ -56,7 +56,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Castle.Windsor">
-      <HintPath>..\..\..\..\IBioref\trunk\IBioref\Lib\Castle.Windsor.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\IBioref\trunk\IBioref\Lib\Castle.Windsor.dll</HintPath>
     </Reference>
     <Reference Include="GalaSoft.MvvmLight, Version=5.2.0.37222, Culture=neutral, PublicKeyToken=e7570ab207bcb616, processorArchitecture=MSIL">
       <HintPath>..\packages\MvvmLightLibs.5.2.0.0\lib\net45\GalaSoft.MvvmLight.dll</HintPath>
@@ -75,7 +75,7 @@
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\SciChart Ltd\SciChart SDK\Lib\net45\SciChart.Data.dll</HintPath>
     </Reference>
     <Reference Include="SciChart.Examples.ExternalDependencies">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\SciChart Ltd\SciChart SDK\ExamplesBin\SciChart.Examples.ExternalDependencies.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\SciChart Ltd\SciChart SDK\ExamplesBin\SciChart.Examples.ExternalDependencies.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
