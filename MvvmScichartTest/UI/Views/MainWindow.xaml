@@ -13,15 +13,15 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="../Skins/MainSkin.xaml" />
             </ResourceDictionary.MergedDictionaries>
-            <presentation:SeriesBindingViewModel x:Key="ViewModel" />
+            <presentation:ColumnAndLineSeriesViewModel x:Key="ColumnAndLineSeriesViewModel" />
         </ResourceDictionary>
        
     </Window.Resources>
 
 
     <TabControl>
-        
-        <TabItem Header="Bars and Lines">
+
+        <TabItem Header="Columns and Lines">
 
             <StackPanel x:Name="LayoutRoot">
 
@@ -34,7 +34,7 @@
                    TextWrapping="Wrap" 
                    Padding="0,0,0,15"/>
 
-                <views:SeriesBindingView DataContext="{StaticResource ViewModel}" />
+                <views:SeriesBindingView DataContext="{StaticResource ColumnAndLineSeriesViewModel}" />
 
             </StackPanel>
 

@@ -9,8 +9,6 @@ C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScich
 C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\SciChart.Drawing.dll
 C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\ClientModel.pdb
 C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\DataAccess.pdb
-C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\GalaSoft.MvvmLight.pdb
-C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\GalaSoft.MvvmLight.xml
 C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\SciChart.Charting.xml
 C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\SciChart.Core.xml
 C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\SciChart.Data.xml

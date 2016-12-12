@@ -52,7 +52,7 @@
   <ItemGroup>
     <Compile Include="MainWindowViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SeriesBindingViewModel.cs" />
+    <Compile Include="ColumnAndLineSeriesViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClientModel\ClientModel.csproj">

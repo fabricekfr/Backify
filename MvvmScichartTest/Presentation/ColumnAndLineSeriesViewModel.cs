@@ -9,11 +9,11 @@ using SciChart.Charting.Model.DataSeries;
 
 namespace Presentation
 {
-    public class SeriesBindingViewModel : ViewModelBase
+    public class ColumnAndLineSeriesViewModel : ViewModelBase
     {
         public ObservableCollection<IRenderableSeriesViewModel> RenderableSeriesViewModels { get; set; }
 
-        public SeriesBindingViewModel()
+        public ColumnAndLineSeriesViewModel()
         {
             var dataService = new DesignDataService();
             var data = dataService.GetData().ToList();
