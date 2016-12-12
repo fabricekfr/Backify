@@ -1,0 +1,5 @@
+*.exe
+MvvmScichartTest/MvvmScichartTest/bin/Debug/MvvmScichartTest.exe.CodeAnalysisLog.xml
+*.pdb
+MvvmScichartTest/MvvmScichartTest/bin/Debug/Presentation.dll
+*.pdb

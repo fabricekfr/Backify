@@ -6,6 +6,7 @@ using DataAccess;
 using GalaSoft.MvvmLight;
 using SciChart.Charting.Model.ChartSeries;
 using SciChart.Charting.Model.DataSeries;
+using SciChart.Charting.Visuals.PointMarkers;
 
 namespace Presentation
 {
