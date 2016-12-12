@@ -214,3 +214,6 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+MvvmScichartTest/ClientModel/bin/Debug/ClientModel.dll
+MvvmScichartTest/ClientModel/bin/Debug/ClientModel.dll
+MvvmScichartTest/ClientModel/obj/Debug/ClientModel.pdb
