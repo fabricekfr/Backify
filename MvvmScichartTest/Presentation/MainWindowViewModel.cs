@@ -5,7 +5,7 @@ namespace Presentation
 
     public class MainWindowViewModel : ViewModelBase
     {
-        private string _welcomeTitle = "WelcomeTitle";
+        private string _welcomeTitle = "Sci chart magic";
         public string WelcomeTitle
         {
             get

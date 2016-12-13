@@ -14,36 +14,35 @@
                 <ResourceDictionary Source="../Skins/MainSkin.xaml" />
             </ResourceDictionary.MergedDictionaries>
             <presentation:ColumnAndLineSeriesViewModel x:Key="ColumnAndLineSeriesViewModel" />
+            <presentation:ColumnGroupSeriesViewModel x:Key="ColumnGroupSeriesViewModel" />
         </ResourceDictionary>
-       
+
     </Window.Resources>
 
+    <StackPanel>
 
-    <TabControl>
 
-        <TabItem Header="Columns and Lines">
-
-            <StackPanel x:Name="LayoutRoot">
-
-                <TextBlock FontSize="36"
+        <TextBlock FontSize="24"
                    FontWeight="Bold"
-                   Foreground="Purple"
+                   Foreground="DarkSlateGray"
                    Text="{Binding WelcomeTitle}"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
                    TextWrapping="Wrap" 
                    Padding="0,0,0,15"/>
 
+        <TabControl>
+
+            <TabItem Header="Columns and Lines">
                 <views:SeriesBindingView DataContext="{StaticResource ColumnAndLineSeriesViewModel}" />
+            </TabItem>
 
-            </StackPanel>
+            <TabItem Header="Columns and Lines">
+                <views:SeriesBindingView DataContext="{StaticResource ColumnGroupSeriesViewModel}" />
+            </TabItem>
 
-        </TabItem>
+        </TabControl>
 
-        <TabItem>
-
-        </TabItem>
-
-    </TabControl>
+    </StackPanel>
 
 </Window>

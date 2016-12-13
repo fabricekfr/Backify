@@ -18,19 +18,17 @@ namespace Presentation
             var dataService = new DesignDataService();
             var data = dataService.GetData().ToList();
 
-            var mountainDataSeries = new XyDataSeries<DateTime, double>();
-            mountainDataSeries.Append(data.Select(d => d.Date), data.Select(d => d.Weight));
+            var columnDataSeries = new XyDataSeries<DateTime, double>();
+            columnDataSeries.Append(data.Select(d => d.Date), data.Select(d => d.Weight));
 
             var lineDataSeries = new XyDataSeries<DateTime, double>();
             lineDataSeries.Append(data.Select(d => d.Date), data.Select(d => d.BodyFat));
 
             RenderableSeriesViewModels = new ObservableCollection<IRenderableSeriesViewModel>()
             {
-                new ColumnRenderableSeriesViewModel {DataSeries = mountainDataSeries, YAxisId = "LeftAxis"},
+                new ColumnRenderableSeriesViewModel {DataSeries = columnDataSeries, YAxisId = "LeftAxis"},
                 new LineRenderableSeriesViewModel {DataSeries = lineDataSeries, Stroke = Colors.Red, YAxisId = "RightAxis"}
             };
-
-
 
         }
 

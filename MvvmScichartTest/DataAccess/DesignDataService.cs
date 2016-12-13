@@ -24,7 +24,8 @@ namespace DataAccess
                 {
                     Date = start.AddDays(i),
                     Weight = random.NextDouble() * 20 + 100,
-                    BodyFat = random.NextDouble() * 10 + 20
+                    BodyFat = random.NextDouble() * 10 + 20,
+                    Bmi = random.NextDouble() * 3 + 22
                 };
                 data.Add(weightRecord);
             }
