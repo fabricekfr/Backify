@@ -73,6 +73,15 @@
                 <s:NumericAxis Id="RightAxis" AxisAlignment="Right" />
             </s:SciChartSurface.YAxes>
 
+            <s:SciChartSurface.ChartModifier>
+                <s:ModifierGroup>
+                    <s:RolloverModifier x:Name="RolloverModifier" DrawVerticalLine="True"
+                                        ShowTooltipOn="{Binding SelectedValue, ElementName=tooltipModes, Mode=OneWay}"
+                                        SourceMode="{Binding SelectedValue, ElementName=rolloverModes, Mode=OneWay}" />
+                    <s:SeriesSelectionModifier IsEnabled="False" ReceiveHandledEvents="True" />
+                </s:ModifierGroup>
+            </s:SciChartSurface.ChartModifier>
+
         </s:SciChartSurface>
 
     </Grid>
