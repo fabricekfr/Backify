@@ -55,24 +55,33 @@
     <StartupObject>UI.App</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Castle.Windsor">
-      <HintPath>..\..\..\..\..\..\IBioref\trunk\IBioref\Lib\Castle.Windsor.dll</HintPath>
+    <Reference Include="Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.3.3.3\lib\net45\Castle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Windsor.3.3.0\lib\net45\Castle.Windsor.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="GalaSoft.MvvmLight, Version=5.2.0.37222, Culture=neutral, PublicKeyToken=e7570ab207bcb616, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\GalaSoft.MvvmLight.dll</HintPath>
     </Reference>
-    <Reference Include="SciChart.Charting, Version=4.2.0.9172, Culture=neutral, PublicKeyToken=b55dd9efe817e823, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\SciChart Ltd\SciChart SDK\Lib\net45\SciChart.Charting.dll</HintPath>
+    <Reference Include="SciChart.Charting, Version=4.2.0.9227, Culture=neutral, PublicKeyToken=b55dd9efe817e823, processorArchitecture=MSIL">
+      <HintPath>..\packages\SciChart.4.2.0.9227\lib\net45\SciChart.Charting.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="SciChart.Core, Version=4.2.0.9172, Culture=neutral, PublicKeyToken=b55dd9efe817e823, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\SciChart Ltd\SciChart SDK\Lib\net45\SciChart.Core.dll</HintPath>
+    <Reference Include="SciChart.Core, Version=4.2.0.9227, Culture=neutral, PublicKeyToken=b55dd9efe817e823, processorArchitecture=MSIL">
+      <HintPath>..\packages\SciChart.4.2.0.9227\lib\net45\SciChart.Core.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="SciChart.Data, Version=4.2.0.9172, Culture=neutral, PublicKeyToken=b55dd9efe817e823, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\SciChart Ltd\SciChart SDK\Lib\net45\SciChart.Data.dll</HintPath>
+    <Reference Include="SciChart.Data, Version=4.2.0.9227, Culture=neutral, PublicKeyToken=b55dd9efe817e823, processorArchitecture=MSIL">
+      <HintPath>..\packages\SciChart.4.2.0.9227\lib\net45\SciChart.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SciChart.Drawing, Version=4.2.0.9227, Culture=neutral, PublicKeyToken=b55dd9efe817e823, processorArchitecture=MSIL">
+      <HintPath>..\packages\SciChart.4.2.0.9227\lib\net45\SciChart.Drawing.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="SciChart.Examples.ExternalDependencies">
       <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\SciChart Ltd\SciChart SDK\ExamplesBin\SciChart.Examples.ExternalDependencies.dll</HintPath>
@@ -144,6 +153,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
