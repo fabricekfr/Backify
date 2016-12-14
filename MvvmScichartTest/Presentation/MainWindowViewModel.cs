@@ -5,7 +5,7 @@ namespace Presentation
 
     public class MainWindowViewModel : ViewModelBase
     {
-        private string _welcomeTitle = "Sci chart magic";
+        private string _welcomeTitle = "SciChart magic";
         public string WelcomeTitle
         {
             get
@@ -14,7 +14,7 @@ namespace Presentation
             }
             set
             {
-                Set(ref _welcomeTitle, value);
+                Set(ref _welcomeTitle, value, true);
             }
         }
     }

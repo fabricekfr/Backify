@@ -17,3 +17,16 @@ C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScich
 C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\obj\Debug\Presentation.csprojResolveAssemblyReference.cache
 C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\obj\Debug\Presentation.dll
 C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\obj\Debug\Presentation.pdb
+C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\fkwitond\Documents\Visual Studio 2015\Projects\GitHub\Backify\MvvmScichartTest\Presentation\bin\Debug\Microsoft.Practices.ServiceLocation.xml
