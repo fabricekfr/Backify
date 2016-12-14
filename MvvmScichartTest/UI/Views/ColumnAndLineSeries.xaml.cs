@@ -5,9 +5,9 @@ namespace UI.Views
     /// <summary>
     /// Interaction logic for SeriesBindingView.xaml
     /// </summary>
-    public partial class SeriesBindingView : UserControl
+    public partial class ColumnAndLineSeries : UserControl
     {
-        public SeriesBindingView()
+        public ColumnAndLineSeries()
         {
             InitializeComponent();
         }

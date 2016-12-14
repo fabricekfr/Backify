@@ -34,11 +34,11 @@
         <TabControl>
 
             <TabItem Header="Columns and Lines">
-                <views:SeriesBindingView DataContext="{StaticResource ColumnAndLineSeriesViewModel}" />
+                <views:ColumnAndLineSeries DataContext="{StaticResource ColumnAndLineSeriesViewModel}" />
             </TabItem>
 
             <TabItem Header="Columns and Lines">
-                <views:SeriesBindingView DataContext="{StaticResource ColumnGroupSeriesViewModel}" />
+                <views:ColumnGroupSeries DataContext="{StaticResource ColumnGroupSeriesViewModel}" />
             </TabItem>
 
         </TabControl>
