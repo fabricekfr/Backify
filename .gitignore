@@ -218,3 +218,4 @@ MvvmScichartTest/ClientModel/bin/Debug/ClientModel.dll
 MvvmScichartTest/ClientModel/bin/Debug/ClientModel.dll
 MvvmScichartTest/ClientModel/obj/Debug/ClientModel.pdb
 MvvmScichartTest/.vs/MvvmScichartTest/v14/.suo
+*.suo
